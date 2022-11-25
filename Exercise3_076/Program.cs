@@ -114,6 +114,13 @@ namespace Exercise3_076
             current.next = previous;
             return true;
         }
+        public bool listEmpty()
+        {
+            if (LAST == null)
+                return true;
+            else
+                return false;
+        }
     }
     
 }
