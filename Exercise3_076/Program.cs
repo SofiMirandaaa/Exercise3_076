@@ -8,16 +8,12 @@ namespace Exercise3_076
 {
     class Node
     {
-        /*create Nodes for the ciscular nexted list*/
+        /*create Nodes for the circular nexted list*/
         public int rollNumber;
+        public int studentnum;
         public string name;
         public Node next;
     }
+   
 
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
 }
