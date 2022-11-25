@@ -159,7 +159,7 @@ namespace Exercise3_076
                     Console.WriteLine("4. Search for a record in the list");
                     Console.WriteLine("5. Display the first record in the list");
                     Console.WriteLine("6. Exit");
-                    Console.Write("\nEnter your choice (1-4): ");
+                    Console.Write("\nEnter your choice (1-6): ");
                     char ch = Convert.ToChar(Console.ReadLine());
                     switch (ch)
                     {
